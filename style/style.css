@@ -21,37 +21,37 @@ nav a{
     color: gray;
     text-decoration: none;
 }
-a.menuatual{
+a.menu{
     color: black;
 }
-section.inicio{
+section.topo{
     display: flex;
     justify-content: space-between;
 }
-.inicio div{
+.topo div{
     margin: 5vw;
 }
 div img{
     margin-top: 10px;
 }
-div.conteudo{
+div.cntd{
     padding: 4vw;
 }
-div.conteudo h2{
+div.cntud h2{
     font-size: 2.7rem;
     width: 80%;
     padding-bottom: 20px;
  
 }
-div.conteudo h2 span{
+div.cntd h2 span{
     color: #458FF6;
     
 }
-div.conteudo p{
+div.cntd p{
     color: gray;
     width: 40%;
 }
-div.conteudo a{
+div.cntd a{
    color: white;
    background-color: #458FF6;
    border-radius: 5px;
@@ -67,7 +67,7 @@ section.meio h3.titulo{
     text-align: center;
     padding: 30px;
 }
-section.meio p.sub{
+section.meio p.subtitulo{
     color: gray;
     text-align: center;
     width: 40%;
@@ -91,34 +91,6 @@ section.meio{
     border:#458FF6;
     font-weight: 600;
     margin: 2vw 46vw;
-}
-section.fim h3{
-    font-size: 2rem;
-    text-align: center;
-    margin: 3vw;
-    color: white;
-    font-weight: 540;
-}
-div.depoimentos{
-    display: flex;
-    justify-content: space-around;
-    margin: 5vw
-}
-div.poranos{
-    width: 20%;
-    color: white;
-    padding: 10px;
-}
-section.fim{
-    background-color: #458FF6;
-    padding: 10px;
-    border-radius: 60px;
-    
-}
-section.espaco p{
-    color: white;
-    background-color: white;
-    padding: 8vw;
 }
 footer{
     background-color: #458FF6;
