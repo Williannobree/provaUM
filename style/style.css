@@ -1,0 +1,146 @@
+
+html{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: calc(10px + 0.390625vw);
+}
+header{
+    margin: 30px;
+}
+header nav{
+    display: flex;
+    justify-content: space-between;
+}
+
+header nav ul{
+    display: flex;
+}
+header nav ul li{
+    margin:20px;
+}
+nav a{
+    color: gray;
+    text-decoration: none;
+}
+a.menuatual{
+    color: black;
+}
+section.inicio{
+    display: flex;
+    justify-content: space-between;
+}
+.inicio div{
+    margin: 5vw;
+}
+div img{
+    margin-top: 10px;
+}
+div.conteudo{
+    padding: 4vw;
+}
+div.conteudo h2{
+    font-size: 2.7rem;
+    width: 80%;
+    padding-bottom: 20px;
+ 
+}
+div.conteudo h2 span{
+    color: #458FF6;
+    
+}
+div.conteudo p{
+    color: gray;
+    width: 40%;
+}
+div.conteudo a{
+   color: white;
+   background-color: #458FF6;
+   border-radius: 5px;
+   text-decoration: none;
+   padding: 10px;
+   
+}
+section.meio h3{
+     font-size: 1.4rem;
+}
+section.meio h3.titulo{
+    font-size: 2rem;
+    text-align: center;
+    padding: 30px;
+}
+section.meio p.sub{
+    color: gray;
+    text-align: center;
+    width: 40%;
+    margin: 0 auto;
+}
+section.meio nav ul{
+    display: flex;
+    justify-content: space-between;
+    padding: 5vw;
+}
+section.meio{
+    padding: 20px;
+}
+.meio nav p{
+    color: gray;
+    width: 60%;
+}
+.meio nav a p{
+    color: #458FF6;
+    text-decoration: none;
+    border:#458FF6;
+    font-weight: 600;
+    margin: 2vw 46vw;
+}
+section.fim h3{
+    font-size: 2rem;
+    text-align: center;
+    margin: 3vw;
+    color: white;
+    font-weight: 540;
+}
+div.depoimentos{
+    display: flex;
+    justify-content: space-around;
+    margin: 5vw
+}
+div.poranos{
+    width: 20%;
+    color: white;
+    padding: 10px;
+}
+section.fim{
+    background-color: #458FF6;
+    padding: 10px;
+    border-radius: 60px;
+    
+}
+section.espaco p{
+    color: white;
+    background-color: white;
+    padding: 8vw;
+}
+footer{
+    background-color: #458FF6;
+   padding: 5px;
+}
+footer nav{
+    display: flex;
+    justify-content: space-between;
+    margin: 7vw;
+    padding: 10px;
+}
+footer nav p{
+    color: white;
+    
+}
+footer nav ul li a{
+    color: white;
+}
+footer li{
+    padding: 10px;
+}
+footer p{
+    padding: 10px;
+}
+
